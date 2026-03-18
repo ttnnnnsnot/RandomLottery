@@ -64,4 +64,4 @@ npm run dev
    - 部署完成後，GitHub 會提供一個類似 `https://<您的帳號>.github.io/<您的 Repo>/` 的網址，您就可以把這個網址分享給大家！
 
 ### 🛠️ 自訂 Base URL
-**重要提示：** 若您的專案路徑不是架在 root `/` 底下，而是 `https://<帳號>.github.io/<專案名稱>/`，本專案的 `vite.config.ts` 已設定 `base: './'` 並且使用相對路徑來相容所有的 GitHub Pages 路由結構，因此您無需額外擔心路徑錯誤問題。
+**重要提示：** 若您的專案路徑不是架在 root `/` 底下，而是 `https://<帳號>.github.io/<專案名稱>/`，本專案的 `vite.config.ts` 已設定 `base: './'` 並且使用相對路徑來相容所有的 GitHub Pages 路由結構，因此您無需額外擔心路徑錯誤問題。 
