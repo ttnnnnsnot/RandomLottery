@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-400: #818CF8;
+  --color-primary-500: #4F46E5;
+  --color-primary-600: #4338CA;
+  --color-cta: #F97316;
+  --color-cta-hover: #EA580C;
+  --color-bg-base: #EEF2FF;
+  --color-text-main: #1E1B4B;
+  --color-text-muted: #475569;
+  
+  --font-heading: "Fredoka", sans-serif;
+  --font-body: "Nunito", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-base text-text-main font-body selection:bg-primary-500 selection:text-white;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold text-text-main;
+  }
+}
