@@ -1,6 +1,6 @@
 # 歡樂尾牙抽獎系統 (Company Party Lottery)
 
-👉 **<a href="https://ttnnnnsnot.github.io/RandomLottery/" target="_blank">線上立即體驗 Demo</a>**
+👉 **[線上立即體驗 Demo](https://ttnnnnsnot.github.io/RandomLottery/)**
 
 利用 React + Vite + Tailwind CSS 以及 UI/UX Pro Max 智庫所設計的一款歡樂、活潑的線上尾牙抽獎系統。具備完整的資料持久化機制、CSV 匯入/匯出功能，以及精美的抽獎互動特效。
 
